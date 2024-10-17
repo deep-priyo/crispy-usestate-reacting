@@ -1,5 +1,3 @@
-import React from "react";
-
 const Card = () => {
     const data = [
         { song: "Mocking Bird", description: "This is a song by Eminem, one of my all-time favorites." },

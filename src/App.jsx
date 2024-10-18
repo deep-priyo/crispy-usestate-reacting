@@ -10,6 +10,7 @@ import ArrayAddEle from "./Components/ArrayAddEle";
 import UseStateArr2 from "./Components/UseStateArr2";
 import UseStatehooks from "./components/UseStatehooks";
 import CreateSomething from "./components/CreateSomething";
+import Props from "./components/Props";
 const App = () => {
   return (
     <>
@@ -23,7 +24,9 @@ const App = () => {
       {/* <UseStateArr/> */}
       {/* <ArrayAddEle/> */}
       {/* <UseStatehooks /> */}
-      <CreateSomething/>
+      {/* <CreateSomething/> */}
+      <Props data="Know More" color="bg-blue-500"/>
+      <Props data="Click here" color="bg-red-700"/>
     </>
   );
 };

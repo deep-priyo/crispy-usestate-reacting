@@ -9,6 +9,7 @@ import UseStateArr from "./Components/UseStateArr";
 import ArrayAddEle from "./Components/ArrayAddEle";
 import UseStateArr2 from "./Components/UseStateArr2";
 import UseStatehooks from "./components/UseStatehooks";
+import CreateSomething from "./components/CreateSomething";
 const App = () => {
   return (
     <>
@@ -21,7 +22,8 @@ const App = () => {
       {/* <UserProfile/> */}
       {/* <UseStateArr/> */}
       {/* <ArrayAddEle/> */}
-      <UseStatehooks />
+      {/* <UseStatehooks /> */}
+      <CreateSomething/>
     </>
   );
 };

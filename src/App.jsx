@@ -8,6 +8,7 @@ import UserProfile from "./Components/UserProfile";
 import UseStateArr from "./Components/UseStateArr";
 import ArrayAddEle from "./Components/ArrayAddEle";
 import UseStateArr2 from "./Components/UseStateArr2";
+import UseStatehooks from "./components/UseStatehooks";
 const App = () => {
   return (
     <>
@@ -20,7 +21,7 @@ const App = () => {
       {/* <UserProfile/> */}
       {/* <UseStateArr/> */}
       {/* <ArrayAddEle/> */}
-      <UseStateArr2/>
+      <UseStatehooks />
     </>
   );
 };
